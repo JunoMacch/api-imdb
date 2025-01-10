@@ -19,6 +19,7 @@ public class Principal {
 
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey={insira sua api key}";
+    
     public void exibeMenu() {
         System.out.println("digite o nome do filme para busca");
         var titulo = sc.nextLine();
